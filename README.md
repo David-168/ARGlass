@@ -1,2 +1,2 @@
 # ARGlass
-An AR glass sample
+An glass-like AR sample.
