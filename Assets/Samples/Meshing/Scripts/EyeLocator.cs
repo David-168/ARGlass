@@ -102,8 +102,8 @@ namespace UnityEngine.XR.ARFoundation
             {
 
                 objectWorldtoCameraMatrix = obMainCamera.transform.worldToLocalMatrix;
-                objectWorldtoCameraMatrix = Matrix4x4.Translate(obMainCamera.transform.InverseTransformVector( m_Face.rightEye.transform.position) * -1.0f)
-                    * objectWorldtoCameraMatrix;
+                //objectWorldtoCameraMatrix = Matrix4x4.Translate(obMainCamera.transform.InverseTransformVector( m_Face.rightEye.transform.position) * -1.0f)
+                //  *objectWorldtoCameraMatrix;
 
                 if (bFixViewPoint == false)
                 {
